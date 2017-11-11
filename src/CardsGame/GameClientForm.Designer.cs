@@ -1,6 +1,6 @@
 ﻿namespace CardsGame
 {
-    partial class Desk
+    partial class GameClientForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         {
             this.YourScore = new System.Windows.Forms.Label();
             this.OpponentsScore = new System.Windows.Forms.Label();
-            this.Debug = new System.Windows.Forms.Label();
             this.MainButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -50,15 +49,6 @@
             this.OpponentsScore.TabIndex = 1;
             this.OpponentsScore.Text = "label2";
             // 
-            // Debug
-            // 
-            this.Debug.AutoSize = true;
-            this.Debug.Location = new System.Drawing.Point(10, 42);
-            this.Debug.Name = "Debug";
-            this.Debug.Size = new System.Drawing.Size(35, 13);
-            this.Debug.TabIndex = 1;
-            this.Debug.Text = "label2";
-            // 
             // MainButton
             // 
             this.MainButton.Location = new System.Drawing.Point(483, 10);
@@ -69,7 +59,7 @@
             this.MainButton.UseVisualStyleBackColor = true;
             this.MainButton.Click += new System.EventHandler(this.MainButton_Click);
             // 
-            // Desk
+            // GameClientForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,7 +69,7 @@
             this.Controls.Add(this.OpponentsScore);
             this.Controls.Add(this.YourScore);
             this.MaximizeBox = false;
-            this.Name = "Desk";
+            this.Name = "GameClientForm";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.Desk_Load);
             this.ResumeLayout(false);
@@ -91,7 +81,6 @@
 
         private System.Windows.Forms.Label YourScore;
         private System.Windows.Forms.Label OpponentsScore;
-        private System.Windows.Forms.Label Debug;
         private System.Windows.Forms.Button MainButton;
     }
 }

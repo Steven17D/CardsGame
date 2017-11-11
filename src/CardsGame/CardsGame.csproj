@@ -44,19 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Desk.cs">
+    <Compile Include="GameClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Desk.Designer.cs">
-      <DependentUpon>Desk.cs</DependentUpon>
+    <Compile Include="GameClientForm.Designer.cs">
+      <DependentUpon>GameClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helper.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Desk.resx">
-      <DependentUpon>Desk.cs</DependentUpon>
+    <EmbeddedResource Include="GameClientForm.resx">
+      <DependentUpon>GameClientForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
